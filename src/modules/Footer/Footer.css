@@ -1,0 +1,27 @@
+footer {
+  color: var(--footer_text_color);
+}
+
+footer a {
+  color: var(--footer_link_color);
+}
+footer.theme_dark {
+  background-color: var(--theme_dark_header_bg);
+}
+
+footer.theme_dark a {
+  color: var(--theme_dark_footer_link_color);
+  color: rgb(245, 207, 101);
+}
+
+footer {
+  margin-bottom: 4rem;
+  display: flex;
+  font-size: 16px;
+  flex-wrap: wrap;
+}
+
+.lpc-venue-block {
+  flex: 1 1 12em;
+  padding: 1rem;
+}
