@@ -1,7 +1,7 @@
 import { getData } from "../getData";
+import makeURL from "../makeURL";
 
 export async function getVenueData() {
-  const venueurl = "https://levenshulmelife.com/drupal9/api_venue_freds/";
-  const venuedata = getData(venueurl);
-  console.log("venuedata", venuedata);
+  console.log(makeURL("venue"));
+  return getData(makeURL("venue"));
 }
