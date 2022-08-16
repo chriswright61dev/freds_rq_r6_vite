@@ -3,6 +3,7 @@ import Footer from "./modules/Footer/Footer";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "react-query";
 import Home from "./pages/Home";
+import Events from "./pages/Events";
 const queryClient = new QueryClient();
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Routes>
           <Route path="*" element={<Home />}></Route>
           <Route path="/" element={<Home />}></Route>
+          <Route path="/events" element={<Events />}></Route>
         </Routes>
         <Footer />
       </Router>
