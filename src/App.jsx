@@ -1,5 +1,5 @@
 import "./styles/App.css";
-
+import Footer from "./modules/Footer/Footer";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "react-query";
 import Home from "./pages/Home";
@@ -12,6 +12,7 @@ function App() {
           <Route path="*" element={<Home />}></Route>
           <Route path="/" element={<Home />}></Route>
         </Routes>
+        <Footer />
       </Router>
     </QueryClientProvider>
   );
