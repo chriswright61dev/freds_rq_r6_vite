@@ -1,5 +1,12 @@
+import useVenue from "../data/queryHooks/useVenue";
+
 function Home() {
-  return <div>home page</div>;
+  const venue = useVenue();
+  if (venue.status === "success") {
+    return <div>we have data - home page</div>;
+  } else {
+    return "no data";
+  }
 }
 
 export default Home;
