@@ -1,15 +1,24 @@
 import PosterEvents from "../modules/events/PosterEvents/PosterEvents";
-
+import RegularEvents from "../modules/events/RegularEvents/RegularEvents";
+import DatedEvents from "../modules/events/DatedEvents/DatedEvents";
+import SportsEvents from "../modules/events/SportsEvents/SportsEvents";
 function Events() {
   return (
     <div className="container">
       <div className="info_column">
-        'just the Poster Events'
         <PosterEvents />
       </div>
-      <div className="info_column">'Dated Events'</div>
-      <div className="info_column">'Regular Events' </div>
-      <div className="info_column">'Sports Events'</div>
+      <div className="info_column">
+        <RegularEvents />
+      </div>
+      <div className="info_column">
+        {" "}
+        <DatedEvents />{" "}
+      </div>
+      <div className="info_column">
+        {" "}
+        <SportsEvents />
+      </div>
     </div>
   );
 }
