@@ -1,13 +1,13 @@
 import { siteSettings } from "../config/config";
 
-function makeURL(urlPart) {
+function makeQueryURL(urlPart, query) {
   return (
     siteSettings.baseurl +
     siteSettings.urlprefix +
+    siteSettings.siteabbrv +
     urlPart +
-    siteSettings.siteabbrv
+    query
   );
 }
 
-export default makeURL;
-("https://levenshulmelife.com/drupal9/  api_ drinks _freds/");
+export default makeQueryURL;
