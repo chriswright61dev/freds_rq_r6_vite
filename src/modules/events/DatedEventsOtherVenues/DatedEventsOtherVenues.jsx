@@ -1,14 +1,15 @@
-import useEvents from "../../../data/queryHooks/useEvents";
+import useOtherVenueEvents from "../../../data/queryHooks/useOtherVenueEvents";
 import EventCard from "../../../components/EventCard/EventCard";
-import "./DatedEvents.css";
-function DatedEvents() {
-  const events = useEvents();
+import "./DatedEventsOtherVenues.css";
+function DatedEventsOtherVenues() {
+  const otherVenueEvents = useOtherVenueEvents();
 
-  if (events.status === "success") {
-    const eventsData = events.data;
+  if (otherVenueEvents.status === "success") {
+    const eventsData = otherVenueEvents.data;
 
     if (eventsData.length === 0) {
       return null;
+      // return "other venues event - none";
     } else {
       return (
         <div className="dated_events">
@@ -34,4 +35,4 @@ function DatedEvents() {
   }
 }
 
-export default DatedEvents;
+export default DatedEventsOtherVenues;

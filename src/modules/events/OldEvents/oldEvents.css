@@ -1,0 +1,13 @@
+/* v has widths set elsewhere */
+
+.old_events {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.old_events .event_card {
+  /* min-width: 200px; */
+  max-width: 200px;
+  margin: 2em;
+}

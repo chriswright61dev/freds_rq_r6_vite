@@ -1,17 +1,29 @@
 import usePosterEvents from "../../../data/queryHooks/usePosterEvents";
 import "./PosterEvents.css";
-import PosterEvent from "./PosterEvent/PosterEvent";
+import PosterEvent from "./PosterEvent";
 function PosterEvents() {
   const posterEvents = usePosterEvents();
   if (posterEvents.status === "success") {
     const peData = posterEvents.data;
     if (peData.length === 0) {
-      return "no posters";
+      return null;
     } else {
-      return "have posters event data";
+      return (
+        <div className="poster_events">
+          {peData.map((anEvent) => {
+            return (
+              <PosterEvent
+                key={anEvent.id}
+                name={anEvent.poster_event_title}
+                imageURL={anEvent.poster_event_image}
+              />
+            );
+          })}
+        </div>
+      );
     }
   } else {
-    return "no event data";
+    return null;
   }
 }
 
