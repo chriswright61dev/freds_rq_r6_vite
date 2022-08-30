@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "react-query";
 import Home from "./pages/Home";
 import Events from "./pages/Events";
+import Drinks from "./pages/Drinks";
 const queryClient = new QueryClient();
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="*" element={<Home />}></Route>
           <Route path="/" element={<Home />}></Route>
           <Route path="/events" element={<Events />}></Route>
+          <Route path="/drinks" element={<Drinks />}></Route>
         </Routes>
         <Footer />
       </Router>
