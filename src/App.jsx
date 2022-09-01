@@ -1,6 +1,6 @@
-import "./App.css";
-import "./AppColours.css";
-import "./animation.css";
+import "./styles/App.css";
+import "./styles/AppColours.css";
+import "./styles/animation.css";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "react-query";
