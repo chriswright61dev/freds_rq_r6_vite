@@ -1,7 +1,7 @@
 import { siteSettings } from "../config/config";
 import { beersLastChanged } from "../utilities/utilities";
 import useGuestAles from "../data/queryHooks/useGuestAles";
-import ThemeButton from "../components/Theme/ThemeButton/ThemeButton";
+
 function Settings() {
   let beerschanged = null;
   const guestAles = useGuestAles();

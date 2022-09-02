@@ -34,7 +34,11 @@ export default function ThemeButton() {
   return (
     <>
       <button className="themeBtn" onClick={handleToggle}>
-        {theme === "light" ? <span>dark</span> : <span>light</span>}
+        {theme === "light" ? (
+          <span>Choose Dark Mode</span>
+        ) : (
+          <span>Choose Light Mode</span>
+        )}
       </button>
     </>
   );

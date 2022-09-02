@@ -1,4 +1,5 @@
 import { siteSettings } from "../../config/config";
+import ThemeButton from "../../components/Theme/ThemeButton/ThemeButton";
 import "./Footer.css";
 function Footer({ headerReady }) {
   if (headerReady) {
@@ -96,6 +97,8 @@ function Footer({ headerReady }) {
             M19 3AD
           </p>
           <p>0161 257 2702</p>
+          <br /> <br />
+          <ThemeButton />
         </div>
       </footer>
     );
