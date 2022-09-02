@@ -1,9 +1,9 @@
 import React from "react";
 import "./Footer.css";
-import themeSelect from "../../utilities/theme";
+// import themeSelect from "../../utilities/theme";
 function Footer({ headerReady }) {
-  const themeName = themeSelect();
-  const classNames = themeName + " animate_fade_in duration4000";
+  // const themeName = themeSelect();
+  const classNames = "animate_fade_in duration4000";
   if (headerReady) {
     return (
       <footer
