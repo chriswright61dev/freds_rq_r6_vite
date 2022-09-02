@@ -1,5 +1,4 @@
-// why not put config in db
-
+// could put some config in db
 export const siteSettings = {
   baseurl: "https://levenshulmelife.com/drupal9/",
   urlprefix: "api_",
@@ -28,3 +27,6 @@ export const siteSettings = {
   enableOldEventsLink: true,
   enableJobs: true,
 };
+
+// theme settings
+// set some state

@@ -1,4 +1,4 @@
-import themeSelect from "../utilities/theme";
+// import themeSelect from "../utilities/theme";
 import Venue from "../modules/venue/Venue/Venue";
 import VenueAbout from "../modules/venue/VenueAbout/VenueAbout";
 import VenueOpeningTimes from "../modules/venue/VenueOpeningTimes/VenueOpeningTimes";
@@ -13,28 +13,28 @@ import PageTop from "../components/PageTop/Pagetop";
 function AboutUs({ headerReady }) {
   const themeName = themeSelect();
   return (
-    <div className={themeName}>
-      <div className="container animate_fade_in duration1000">
-        <PageTop />
-        <GMap />
-        <div className="info_column">
-          <Venue />
-          <VenueAbout />
-        </div>
-        <div className="info_column">
-          <VenueOpeningTimes />
-        </div>
-        <div className="info_column">
-          <OfferNews />
-        </div>
-        <div className="info_column">
-          <BeerNews />
-          <AboutNews />
-        </div>
-
-        <GStreetView />
+    // <div className={themeName}>
+    <div className="container animate_fade_in duration1000">
+      <PageTop />
+      <GMap />
+      <div className="info_column">
+        <Venue />
+        <VenueAbout />
       </div>
+      <div className="info_column">
+        <VenueOpeningTimes />
+      </div>
+      <div className="info_column">
+        <OfferNews />
+      </div>
+      <div className="info_column">
+        <BeerNews />
+        <AboutNews />
+      </div>
+
+      <GStreetView />
     </div>
+    // </div>
   );
 }
 

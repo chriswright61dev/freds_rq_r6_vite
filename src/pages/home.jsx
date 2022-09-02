@@ -2,7 +2,7 @@
 import useVenue from "../data/queryHooks/useVenue";
 import { siteSettings } from "../config/config";
 // utils
-import themeSelect from "../utilities/theme";
+// import themeSelect from "../utilities/theme";
 //modules
 import Venue from "../modules/venue/Venue/Venue";
 import VenueAbout from "../modules/venue/VenueAbout/VenueAbout";
@@ -23,9 +23,9 @@ import LinkBox from "../components/textBoxes/LinkBox";
 function Home({ headerReady }) {
   const venue = useVenue();
   if (venue.status === "success" && headerReady) {
-    const themeName = themeSelect();
+    // const themeName = themeSelect();
     return (
-      <div className={`container ${themeName} ${siteSettings.animate}`}>
+      <div className={`container  ${siteSettings.animate}`}>
         <PageTop />
         <div className="info_column">
           <Venue />
