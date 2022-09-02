@@ -1,4 +1,3 @@
-// import themeSelect from "../utilities/theme";
 import DrinksDraught from "../modules/drinks/drinksStandardPrice/DrinksDraught/DrinksDraught";
 import DrinksSpirits from "../modules/drinks/drinksStandardPrice/DrinksSpirits/DrinksSpirits";
 import DrinksBottled from "../modules/drinks/drinksStandardPrice/DrinksBottled/DrinksBottled";
@@ -9,9 +8,7 @@ import OfferNews from "../modules/news/OfferNews";
 import DrinkNews from "../modules/news/DrinkNews";
 import PageTop from "../components/PageTop/Pagetop";
 function Drinks() {
-  // const themeName = themeSelect();
   return (
-    // <div className={themeName}>
     <div className="container">
       <PageTop />
       <div className="info_column">
@@ -36,7 +33,6 @@ function Drinks() {
         <DrinksSpirits />
       </div>
     </div>
-    // </div>s
   );
 }
 

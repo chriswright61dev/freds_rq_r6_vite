@@ -11,7 +11,6 @@ import PageTop from "../components/PageTop/Pagetop";
 
 function AboutUs({ headerReady }) {
   return (
-    // <div className={themeName}>
     <div className="container animate_fade_in duration1000">
       <PageTop />
       <GMap />
@@ -32,7 +31,6 @@ function AboutUs({ headerReady }) {
 
       <GStreetView />
     </div>
-    // </div>
   );
 }
 
