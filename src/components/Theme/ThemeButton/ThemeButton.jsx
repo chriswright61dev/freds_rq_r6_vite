@@ -17,22 +17,18 @@ export default function ThemeButton() {
   useEffect(() => {
     // check local storage
     const userSetPreference = getUserSetPreference();
-
     if (userSetPreference) {
       settheme(userSetPreference);
     }
     // add theme to doc body
     document.body.dataset.theme = theme;
-
-    // document.body.dataset.theme = theme;
-
-    // body datatheme = 'light'
   }, [theme]);
 
   //   button toggle handler
   const handleToggle = () => {
     const newTheme = theme === "light" ? "dark" : "light";
     settheme(newTheme);
+    storeUserSetPreference(newTheme);
   };
 
   return (
