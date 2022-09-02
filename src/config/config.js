@@ -7,6 +7,7 @@ export const siteSettings = {
   logo: "fredslogo.svg",
   MapAPIKEY: "AIzaSyAUplwoF60k0_6w55l-v7JDcG7dSNibq6I",
   animate: "animate_fade_in duration1000",
+  footerAnimate: "animate_fade_in duration4000",
   enableDrinksNavMenu: false,
   enableDrinksMenuBlock: false,
   enableDrinksPage: false,

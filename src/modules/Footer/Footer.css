@@ -1,3 +1,26 @@
+/* layout */
+footer {
+  margin-bottom: 4rem;
+  display: flex;
+  font-size: 16px;
+  flex-wrap: wrap;
+}
+
+.lpc-venue-block {
+  flex: 1 1 12em;
+  padding: 1rem;
+}
+
+/* colour */
+
+body[data-theme="light"] footer {
+  background-color: var(--theme_light_footer_bg);
+}
+
+body[data-theme="dark"] footer {
+  background-color: var(--theme_dark_footer_bg);
+}
+
 footer {
   color: var(--footer_text_color);
 }
@@ -12,16 +35,4 @@ footer.theme_dark {
 footer.theme_dark a {
   color: var(--theme_dark_footer_link_color);
   color: rgb(245, 207, 101);
-}
-
-footer {
-  margin-bottom: 4rem;
-  display: flex;
-  font-size: 16px;
-  flex-wrap: wrap;
-}
-
-.lpc-venue-block {
-  flex: 1 1 12em;
-  padding: 1rem;
 }

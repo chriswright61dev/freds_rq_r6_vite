@@ -1,17 +1,9 @@
-import React from "react";
+import { siteSettings } from "../../config/config";
 import "./Footer.css";
-// import themeSelect from "../../utilities/theme";
 function Footer({ headerReady }) {
-  // const themeName = themeSelect();
-  const classNames = "animate_fade_in duration4000";
   if (headerReady) {
     return (
-      <footer
-        className={
-          classNames
-          // themeName
-        }
-      >
+      <footer className={siteSettings.footerAnimate}>
         <div className="lpc-venue-block ">
           <h3>
             <a href="http://www.levenshulmepubcompany.co.uk">

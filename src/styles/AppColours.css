@@ -3,6 +3,7 @@
   --theme_dark_bg_color: rgb(5, 35, 45);
   --theme_dark_header_bg: rgb(37, 33, 28);
   --theme_dark_nav_bg: rgb(27, 25, 22);
+  --theme_dark_footer_bg: rgb(5, 35, 45);
   /* text */
   --theme_dark_text_color: rgb(215, 215, 215);
   --theme_dark_header_text: rgb(238, 231, 231);
@@ -19,6 +20,7 @@
   --theme_light_bg_color: rgb(115, 190, 220);
   --theme_light_header_bg: rgb(37, 33, 28);
   --theme_light_nav_bg: rgb(27, 25, 22);
+  --theme_light_footer_bg: rgb(115, 190, 220);
   /* text */
   --theme_light_text_color: rgb(15, 15, 15);
   --theme_light_header_text: rgb(238, 231, 231);

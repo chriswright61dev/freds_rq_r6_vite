@@ -1,4 +1,3 @@
-// import themeSelect from "../utilities/theme";
 import Venue from "../modules/venue/Venue/Venue";
 import VenueAbout from "../modules/venue/VenueAbout/VenueAbout";
 import VenueOpeningTimes from "../modules/venue/VenueOpeningTimes/VenueOpeningTimes";
@@ -11,7 +10,6 @@ import GStreetView from "../components/GStreetView/GStreetView";
 import PageTop from "../components/PageTop/Pagetop";
 
 function AboutUs({ headerReady }) {
-  const themeName = themeSelect();
   return (
     // <div className={themeName}>
     <div className="container animate_fade_in duration1000">
