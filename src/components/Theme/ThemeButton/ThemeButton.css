@@ -1,0 +1,7 @@
+.themeBtn {
+  padding: 10px;
+  color: var(--color-text-primary);
+  background: transparent;
+  border: 1px solid var(--color-text-primary);
+  cursor: pointer;
+}
