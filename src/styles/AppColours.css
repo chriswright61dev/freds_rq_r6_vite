@@ -37,7 +37,7 @@
   --theme_light_header_text: hsl(50, 27%, 10%);
   --theme_light_price_color: hsl(0, 77%, 32%);
   /* links */
-  --theme_light_link_color: hsl(25, 90%, 50%);
+  --theme_light_link_color: hsl(25, 90%, 40%);
   --theme_light_link_highlight_color: hsl(25, 100%, 50%);
   --theme_light_link_text_highlight_color: hsl(25, 95%, 35%);
   --theme_light_footer_link_color: hsl(25, 74%, 41%);

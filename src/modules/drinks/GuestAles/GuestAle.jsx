@@ -18,12 +18,15 @@ function GuestAle({
         <div className="guest_ale__image">
           <ImageContainer type="square" source={photo} alt={drinkName} />
         </div>
-        <div className="guest_ale__prices">
-          <p>abv {abv}</p>
-          {/* <p className="guest_ale__price">£ {halfPrice} </p>
+        {/* <div className="guest_ale__prices"> */}
+        {/* <p className="guest_ale__price">£ {halfPrice} </p>
           <p>Half Pint</p>
           <p className="guest_ale__price">£ {pintPrice}</p>
           <p>a Pint</p> */}
+        <div className="guest_ale__abv">
+          <div>
+            <p>abv {abv}</p>
+          </div>
         </div>
       </div>
 

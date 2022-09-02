@@ -35,6 +35,26 @@
   padding-bottom: 0;
 }
 
+.guest_ale__abv {
+  margin: auto;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.guest_ale__abv p {
+  font: 1.5rem;
+  display: block;
+  font-weight: 600;
+  padding-bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .guest_ale__description {
   width: 100%;
   padding: 1rem;
@@ -44,11 +64,20 @@ body[data-theme="dark"] .guest_ale {
   background-color: var(--theme_dark_box_color);
 }
 
+body[data-theme="dark"] .guest_ale__description {
+  background-color: var(--theme_dark_box_header_color);
+}
+
 body[data-theme="dark"] .guest_ale__price {
   color: var(--theme_dark_price_color);
 }
 
 body[data-theme="dark"] .guest_ale__name {
+  background: var(--theme_dark_box_header_color);
+  color: var(--theme_dark_text_color);
+}
+
+body[data-theme="dark"] .guest_ale__abv {
   background: var(--theme_dark_box_header_color);
   color: var(--theme_dark_text_color);
 }
@@ -63,4 +92,12 @@ body[data-theme="light"] .guest_ale__price {
 body[data-theme="light"] .guest_ale__name {
   background: var(--theme_light_box_header_color);
   color: var(--theme_light_text_color);
+}
+
+body[data-theme="light"] .guest_ale__abv {
+  background: var(--theme_light_box_header_color);
+  color: var(--theme_light_box_color);
+}
+body[data-theme="light"] .guest_ale__description {
+  background-color: var(--theme_light_box_header_color);
 }
