@@ -1,6 +1,11 @@
 .header-venue-description {
-  color: var(--theme_dark_header_text);
-
   font-size: 2rem;
   padding-bottom: 2rem;
+}
+body[data-theme="dark"] .header-venue-description {
+  color: var(--theme_dark_header_text);
+}
+
+body[data-theme="light"] .header-venue-description {
+  color: var(--theme_light_header_text);
 }

@@ -1,4 +1,11 @@
 header {
-  background-color: var(--theme_dark_header_bg);
   text-align: center;
+}
+
+body[data-theme="dark"] header {
+  background-color: var(--theme_dark_header_bg);
+}
+
+body[data-theme="light"] header {
+  background-color: var(--theme_light_header_bg);
 }

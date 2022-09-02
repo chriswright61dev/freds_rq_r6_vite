@@ -1,3 +1,4 @@
+/* layout */
 .event_card h4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -5,13 +6,29 @@
 
 .event_card a {
   text-decoration: none;
+}
+
+/* colour */
+body[data-theme="dark"] .event_card a {
   color: var(--theme_dark_text_color);
 }
 
-.event_card a:hover {
+body[data-theme="dark"] .event_card a:hover {
   color: var(--theme_dark_link_bg_highlight_color);
 }
 
-.event_card a:visited {
+body[data-theme="dark"] .event_card a:visited {
   color: var(--theme_dark_text_color);
+}
+
+body[data-theme="light"] .event_card a {
+  color: var(--theme_light_text_color);
+}
+
+body[data-theme="light"] .event_card a:hover {
+  color: var(--theme_light_link_bg_highlight_color);
+}
+
+body[data-theme="light"] .event_card a:visited {
+  color: var(--theme_light_text_color);
 }
