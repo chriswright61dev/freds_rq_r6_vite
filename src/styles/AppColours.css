@@ -51,12 +51,11 @@
   color: var(--alert-color);
 }
 
-.theme_light {
+body[data-theme="light"] {
   color: var(--theme_light_text_color);
   background-color: var(--theme_light_bg_color);
 }
-
-.theme_dark {
+body[data-theme="dark"] {
   color: var(--theme_dark_text_color);
   background-color: var(--theme_dark_bg_color);
 }
