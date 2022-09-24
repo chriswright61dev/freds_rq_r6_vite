@@ -2,9 +2,20 @@
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   text-decoration: none;
-  color: rgb(248, 248, 196);
 }
 
-.email_link a:hover {
-  color: rgb(235, 232, 63);
+body[data-theme="dark"] .email_link a {
+  color: var(--theme_dark_text_color);
+}
+
+body[data-theme="dark"] .email_link a:hover {
+  color: var(--theme_dark_link_highlight_color);
+}
+
+body[data-theme="light"] .email_link a {
+  color: var(--theme_light_text_color);
+}
+
+body[data-theme="light"] .email_link a:hover {
+  color: var(--theme_light_link_highlight_color);
 }
