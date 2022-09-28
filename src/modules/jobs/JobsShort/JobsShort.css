@@ -5,15 +5,26 @@
   -webkit-box-shadow: 3px 7px 8px 2px rgba(0, 0, 0, 0.25);
   box-shadow: 3px 7px 8px 2px rgba(0, 0, 0, 0.25);
 }
-.theme_dark .jobsListItem {
+body[data-theme="dark"] .jobsListItem {
   background-color: var(--dark_box_bg_color);
 }
 
-.theme_dark .jobslist a {
+body[data-theme="dark"] .jobslist a {
   color: var(--theme_dark_link_color);
   text-decoration: none;
 }
 
-.theme_dark .jobslist a:visited {
+body[data-theme="dark"] .jobslist a:visited {
   color: var(--theme_dark_link_color);
+}
+body[data-theme="light"] .jobsListItem {
+  background-color: var(--light_box_bg_color);
+}
+body[data-theme="light"] .jobslist a {
+  color: var(--theme_light_link_color);
+  text-decoration: none;
+}
+
+body[data-theme="light"] .jobslist a:visited {
+  color: var(--theme_light_link_color);
 }

@@ -43,7 +43,7 @@ body[data-theme="light"] footer a {
   color: var(--theme_light_footer_link_color);
 }
 body[data-theme="light"] footer {
-  background-color: var(--theme_light_header_bg);
+  background-color: var(--theme_light_footer_bg);
 }
 
 body[data-theme="light"] footer a {

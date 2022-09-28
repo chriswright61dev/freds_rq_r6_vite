@@ -7,8 +7,12 @@
   text-align: center;
 }
 
-.theme_dark .drink_offer {
+body[data-theme="dark"] .drink_offer {
   background-color: var(--dark-box-bg-color);
+}
+
+body[data-theme="light"] .drink_offer {
+  background-color: var(--light-box-bg-color);
 }
 
 .drink_offer__image {
@@ -24,8 +28,12 @@
   padding-bottom: 0;
 }
 
-.theme_dark .drink_offer_price {
+body[data-theme="dark"] .drink_offer_price {
   color: var(--theme_dark_price_color);
+}
+
+body[data-theme="light"] .drink_offer_price {
+  color: var(--theme_light_price_color);
 }
 
 .drink_offer__body {
