@@ -1,14 +1,18 @@
 :root {
   /* dark theme */
-  /* bg */
-  --theme_dark_bg_color: hsl(195, 80%, 10%);
-  --theme_dark_header_bg: hsl(36, 14%, 13%);
-  --theme_dark_nav_bg: hsl(36, 10%, 10%);
-  --theme_dark_footer_bg: hsl(195, 77%, 14%);
-  --theme_dark_box_header_color: hsl(5, 86%, 28%);
-  --theme_dark_box_color: hsl(195, 80%, 20%);
 
+  /* bg */
+  --theme_dark_bg_color: hsl(195, 15%, 20%);
+  --theme_dark_header_bg: hsl(55, 10%, 15%);
+  --theme_dark_nav_bg: hsl(55, 10%, 10%);
+  --theme_dark_footer_bg: hsl(195, 70%, 15%);
+  --theme_dark_box_header_color: hsl(5, 86%, 28%);
+  --theme_dark-box-bg-color: hsl(195, 50%, 30%);
+
+  /* ? */
+  --theme_dark_box_color: hsl(195, 80%, 20%);
   /* text */
+
   --theme_dark_text_color: hsl(195, 20%, 80%);
   --theme_dark_header_text: hsl(195, 10%, 90%);
   --theme_dark_price_color: hsl(60, 90%, 45%);
@@ -21,21 +25,24 @@
   --theme_dark_footer_text_color: hsl(60, 60%, 856%);
 
   /* links bg*/
-  --theme_dark_link_bg_highlight_color: hsl(60, 100%, 50%);
+  --theme_dark_link_bg_highlight_color: hsl(60, 70%, 60%);
   --theme_dark_alert_color: hsl(60, 85%, 55%);
 
   /* light theme */
 
-  --theme_light_bg_color: hsl(50, 40%, 90%);
-  --theme_light_header_bg: hsl(50, 65%, 80%);
-  --theme_light_nav_bg: hsl(225, 64%, 701%);
-  --theme_light_footer_bg: hsl(50, 50%, 75%);
-  --theme_light_box_header_color: hsl(50, 35%, 60%);
-  --theme_light_box_color: hsl(50, 40%, 80%);
+  --theme_light_bg_color: hsl(45, 41%, 95%);
+  --theme_light_header_bg: hsl(45, 20%, 60%);
+  --theme_light_nav_bg: hsl(45, 64%, 70%);
+  --theme_light_footer_bg: hsl(45, 30%, 75%);
+  --theme_light_box_header_color: hsl(45, 30%, 55%);
+  --theme_light_box_bg_color: hsl(45, 40%, 90%);
+
+  /* ? */
+  --theme_light_box_color: hsl(45, 40%, 80%);
   /* text */
-  --theme_light_text_color: hsl(50, 10%, 5%);
-  --theme_light_header_text: hsl(50, 27%, 10%);
-  --theme_light_price_color: hsl(0, 77%, 32%);
+  --theme_light_text_color: hsl(80, 10%, 5%);
+  --theme_light_header_text: hsl(195, 10%, 90%);
+  --theme_light_price_color: hsl(45, 77%, 32%);
   /* links */
   --theme_light_link_color: hsl(25, 90%, 40%);
   --theme_light_link_highlight_color: hsl(25, 100%, 50%);
@@ -46,15 +53,10 @@
   --theme_light_alert_color: hsl(0, 90%, 40%);
 
   --theme_light_alert_bg_color: hsl(60, 89%, 65%);
-  --theme_dark_alert_bg_color: hsl(0, 90%, 35%);
+  --theme_light_alert_bg_color: hsl(0, 90%, 35%);
 
-  --dark_box_bg_color: hsl(60, 5%, 21%);
-  --darker_box_bg_color: hsl(60, 9%, 13%);
-  --mid_box_bg_color: hsl(0, 0%, 88%);
-  --box_header_color: hsl(5, 86%, 28%);
-
-  --theme_dark_light_box_bg_color: hsl(5, 85%, 30%);
-  --theme_light_light_box_bg_color: hsl(60, 40%, 70%);
+  --theme_dark_light_box_bg_color: hsl(45, 85%, 30%);
+  --theme_light_light_box_bg_color: hsl(45, 40%, 70%);
 
   --alert-bg-color: hsl(56, 95%, 46%);
 }

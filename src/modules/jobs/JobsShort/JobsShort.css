@@ -6,7 +6,7 @@
   box-shadow: 3px 7px 8px 2px rgba(0, 0, 0, 0.25);
 }
 body[data-theme="dark"] .jobsListItem {
-  background-color: var(--dark_box_bg_color);
+  background-color: var(--theme_dark_box_color);
 }
 
 body[data-theme="dark"] .jobslist a {
@@ -18,7 +18,7 @@ body[data-theme="dark"] .jobslist a:visited {
   color: var(--theme_dark_link_color);
 }
 body[data-theme="light"] .jobsListItem {
-  background-color: var(--light_box_bg_color);
+  background-color: var(--theme_light_box_color);
 }
 body[data-theme="light"] .jobslist a {
   color: var(--theme_light_link_color);
